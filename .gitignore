@@ -1,3 +1,4 @@
 illinois_doc_dataset/
 *.pkl
 *.zip
+*.dat
