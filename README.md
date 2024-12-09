@@ -50,6 +50,8 @@ cd PRML_Project
 
  - The images are converted to grayscale.
 
+ - The images are flattened before storing it in the pickle file.
+
 4. The dataset is converted to a pickle file `custom_dataset.pkl` for further use.
 
 ## Feature Detection
@@ -99,3 +101,8 @@ The model achieved an accuracy of 87.43%.
 A count of number of times an offence is committed is displayed. As there are a lot of offences, we have plotted the offences which make up 75% of the data for easier visualisation. Additionally, the count of all offences have also been plotted.
 
 ## Authors
+<a href="https://github.com/PranaavPrasad/PRML_Project/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PranaavPrasad/PRML_Project" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
