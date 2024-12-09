@@ -30,12 +30,12 @@ cd PRML_Project
 
 6. Run all cells in `gender.ipynb` to predict gender.
 
-7. Run all cells in `distribution.ipynb` to plot the number of offences commited.
+7. Run all cells in `distribution.ipynb` to visualize the number of offences commited.
 
 ## Data Preprocessing
 #### Notebook - `custom_dataset.ipynb`
 #### CSV file - `person.csv`
-#### image folders - `/front` and `/side`
+#### Image folders - `/front` and `/side`
 #### Implementation
 1. Reading gender of each inmate.
 
@@ -44,7 +44,7 @@ cd PRML_Project
 3. Reading the front image and side image of the inmates only if the image exists.
  - The inmate is recorded only if the front and side image is available.
 
- - A limit of 4000 is kept on the number of males to match match the number of females.
+ - A limit of 4000 is kept on the number of males to match the number of females.
 
  - The images are resized to (512,512).
 
@@ -54,7 +54,7 @@ cd PRML_Project
 
 ## Feature Detection
 #### Notebook
-Its is implemented in both the notebooks, `bmi.ipynb` and `gender.ipynb`. 
+It is implemented in both the notebooks, `bmi.ipynb` and `gender.ipynb`. 
 
 #### Feature Extraction
 The 68 facial landmarks were used as features. The coordinates of the landmarks (x and y values) gives a total of  68 * 2 = 136 dimensions.
