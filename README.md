@@ -1,5 +1,17 @@
 # PRML Project
 
+# Table of Contents
+
+- [Dataset](#dataset)
+- [Objective](#objective)
+- [Steps to Run the Notebooks](#steps-to-run-the-notebooks)
+- [Data Preprocessing](#data-preprocessing)
+- [Feature Detection](#feature-detection)
+- [BMI Prediction](#bmi-prediction)
+- [Gender Classification](#gender-classification)
+- [Distribution of Offences](#distribution-of-offences)
+- [Authors](#authors)
+
 ## Dataset
 ### [Illinois DOC labeled faces dataset](https://academictorrents.com/details/4b9b7e449aa732842aea1a7d4e6413f4507aea99)
 The dataset contains details of the inmates, including sex, weight, height, front face images, and side face images. It also contains the offences committed by each inmate.
@@ -104,5 +116,3 @@ A count of number of times an offence is committed is displayed. As there are a 
 <a href="https://github.com/PranaavPrasad/PRML_Project/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=PranaavPrasad/PRML_Project" />
 </a>
-
-Made with [contrib.rocks](https://contrib.rocks).
